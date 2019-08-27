@@ -81,19 +81,16 @@ header nav {
   display: flex;
   align-items: center;
   margin-left: 120px;
-  border: solid black 1px;
 }
 .header_logo .logo_img {
   height: 95px;
   transition: all 0.05s ease-in-out;
-  border: solid black 1px;
 }
 
 .header_list {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: solid black 1px;
 }
 .header_list ul {
   display: flex;
@@ -109,7 +106,24 @@ header nav {
   font-size: 1em;
   font-weight: bold;
 }
+.header_list .menuIcon {
+  display: none;
+}
 
+@media (max-width: 720px) {
+  .header_list {
+    display: none;
+  }
+
+  .menuIcon {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  body {
+    background-color: yellow;
+  }
+}
 main {
   border: solid black 1px;
   margin-top: 10px;

@@ -73,7 +73,6 @@ header {
     grid-template-columns: 1fr 1fr;
     border: solid black 1px;
   }
-
 }
 
 .header_logo {
@@ -90,7 +89,7 @@ header {
 .header_list  {
 	display: flex;
 	align-items: center;
-	justify-content: center;  
+	justify-content: center;
 
   ul {
     display: flex;
@@ -108,8 +107,25 @@ header {
     font-size: 1em;
     font-weight: bold;
 	}
+
+	.menuIcon {
+		display: none;
+	}
+
 }
 
+$layout-breakpoint-small: 720px;
+
+@media (max-width: $layout-breakpoint-small) {
+	#menu {
+		display: none;
+	}
+
+	.menuIcon {
+		display: flex;
+		justify-content: flex-end;
+	}
+}
 
 main {
   border: $black_border;
