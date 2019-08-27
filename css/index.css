@@ -1,0 +1,257 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  border: solid black 1px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  height: 100px;
+}
+header nav {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  border: solid black 1px;
+}
+
+.header_logo {
+  display: flex;
+  align-items: center;
+  margin-left: 120px;
+  border: solid black 1px;
+}
+.header_logo .logo_img {
+  height: 95px;
+  transition: all 0.05s ease-in-out;
+  border: solid black 1px;
+}
+
+.header_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid black 1px;
+}
+.header_list ul {
+  display: flex;
+  list-style: none;
+}
+.header_list li {
+  margin: 10px;
+}
+.header_list a {
+  color: rgba(74, 74, 74, 0.7);
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+main {
+  border: solid black 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+main section {
+  margin: 20px 0px;
+}
+main #sectionOne {
+  border: solid black 1px;
+  height: 100px;
+}
+main #sectionOne h1 {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+main #sectionTwo {
+  border: solid black 1px;
+  display: grid;
+  grid-template-rows: 150px 150px;
+  grid-template-columns: 1fr;
+}
+main .sectionTwoUp {
+  display: grid;
+  grid-column: 1/4;
+  border: solid black 1px;
+}
+main .sectionTwoUp h2 {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+main .sectionTwoArticle {
+  border: solid black 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .sectionTwoDown {
+  display: flex;
+  justify-content: center;
+}
+main .articleWrapper {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+}
+main #sectionThree {
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  border: solid black 1px;
+}
+main #sectionThree .sectionThreeTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #sectionThree #sectionThreeBoxes {
+  display: flex;
+  justify-content: center;
+}
+main #sectionThree .sectionThreeBottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #sectionThree .sectionThreeBox {
+  border: solid black 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 264px;
+}
+main #sectionThree #sectionThreeLastBox {
+  display: grid;
+  grid-column: 2/3;
+}
+main #sectionFour {
+  border: solid black 1px;
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr;
+  grid-template-columns: 1fr;
+}
+main #sectionFour #sectionFourBoxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #sectionFour .sectionFourBoxWrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  width: 90%;
+  grid-column: 1/3;
+}
+main #sectionFour .sectionFourBox {
+  border: solid black 1px;
+  height: 165px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #sectionFour .sectionFourTitle {
+  display: grid;
+  grid-column: 1/3;
+  border: solid black 1px;
+}
+main #sectionFour .sectionFourTitle h2 {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+main #sectionFour .sectionFourBottom {
+  display: grid;
+  grid-column: 1/3;
+  border: solid black 1px;
+}
+main #sectionFour .sectionFourBottom a, main #sectionFour .sectionFourBottom p {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  border: solid black 1px;
+}
+
+footer {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 280px;
+  border: solid black 1px;
+}
+footer #footerLeft, footer #footerRight, footer #footerCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  border: solid black 1px;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,285 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+$black_border: solid black 1px;
+
+body {
+  border: solid black 1px;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  height: 100px;
+
+  nav {
+		height: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    border: solid black 1px;
+  }
+
+}
+
+.header_logo {
+	display: flex;
+	align-items: center;
+	margin-left: 120px;
+
+	.logo_img {
+		height: 95px;
+    transition: all .05s ease-in-out;
+	}
+}
+
+.header_list  {
+	display: flex;
+	align-items: center;
+	justify-content: center;  
+
+  ul {
+    display: flex;
+    list-style: none;
+  }
+
+	li {
+		margin: 10px;
+	}
+
+	a {
+		color: rgba(74,74,74,0.7);
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    font-size: 1em;
+    font-weight: bold;
+	}
+}
+
+
+main {
+  border: $black_border;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  section {
+    margin: 20px 0px;
+  }
+
+  #sectionOne {
+		border: $black_border;
+		height: 100px;
+
+		h1 {
+			display: flex;
+  		align-self: center;
+  		justify-content: center;
+	  }
+  }
+
+  #sectionTwo {
+    border: $black_border;
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 1fr;
+  }
+
+  .sectionTwoUp {
+    display: grid;
+    grid-column: 1 / 4;
+    border: $black_border;
+  }
+
+	.sectionTwoUp h2 {
+    display: flex;
+		align-self: center;
+		justify-content: center;
+  }
+
+  .sectionTwoArticle {
+    border: $black_border;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+  }
+
+  .sectionTwoDown {
+    display: flex;
+    justify-content: center;
+  }
+
+  .articleWrapper {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+  }
+
+  #sectionThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    border: $black_border;
+
+    .sectionThreeTitle {
+      display: flex;
+      justify-content: center;
+			align-items: center;
+    }
+
+    #sectionThreeBoxes {
+      display: flex;
+      justify-content: center;
+    }
+
+    .sectionThreeBottom {
+      display: flex;
+      justify-content: center;
+			align-items: center;
+    }
+
+		.sectionThreeBox {
+			border: $black_border;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 264px;
+		}
+
+		#sectionThreeLastBox {
+			display: grid;
+			grid-column: 2/3;
+		}
+  }
+
+  #sectionFour {
+    border: $black_border;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    grid-template-columns: 1fr;
+
+		#sectionFourBoxes {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.sectionFourBoxWrapper {
+			display: grid;
+			grid-template-rows: 1fr 1fr;
+	    grid-template-columns: 1fr 1fr;
+			grid-column-gap: 20px;
+			width: 90%;
+			grid-column: 1 / 3;
+		}
+
+		.sectionFourBox {
+			border: $black_border;
+			height: 165px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.sectionFourTitle {
+			display: grid;
+			grid-column: 1 / 3;
+			border: $black_border;
+		}
+
+		.sectionFourTitle h2 {
+			display: flex;
+			align-self: center;
+			justify-content: center;
+		}
+
+		.sectionFourBottom {
+			display: grid;
+			grid-column: 1 / 3;
+			border: $black_border;
+		}
+
+		.sectionFourBottom {
+
+
+			a, p {
+				display: flex;
+				align-self: center;
+				justify-content: center;
+				flex-wrap: wrap;
+				margin: 20px;
+				border: $black_border;
+			}
+		}
+  }
+
+}
+
+footer {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 280px;
+  border: $black_border;
+
+	#footerLeft, #footerRight, #footerCenter {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 200px;
+		border: $black_border;
+	}
+}
