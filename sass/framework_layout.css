@@ -54,11 +54,18 @@ table {
 
 html {
   box-sizing: border-box;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
 }
 
 body {
-  border: solid black 1px;
+  border: solid red 1px;
   font-family: "Lexend Deca", sans-serif;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  width: 100%;
 }
 
 a {
@@ -67,22 +74,30 @@ a {
 }
 
 header {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
   height: 100px;
 }
 header nav {
   height: 100%;
+  width: 100%;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
-  border: s solid black 1px;
 }
 
-.header_logo {
+.header_grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.header_grid .header_logo {
   display: flex;
   align-items: center;
-  margin-left: 120px;
+  justify-content: center;
 }
-.header_logo .logo_img {
+.header_grid .header_logo .logo_img {
   height: 95px;
   transition: all 0.05s ease-in-out;
 }
@@ -90,24 +105,20 @@ header nav {
 .header_list {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
-.header_list #menu {
-  display: flex;
+  justify-content: flex-end;
 }
 .header_list ul {
-  display: flex;
+  width: 100%;
   list-style: none;
 }
 .header_list li {
   margin: 10px;
 }
-.header_list a {
-  color: rgba(74, 74, 74, 0.7);
-  text-decoration: none;
-  letter-spacing: 0.2px;
-  font-size: 1em;
-  font-weight: bold;
+
+#menu {
+  display: flex;
+  border: solid black 1px;
+  justify-content: flex-end;
 }
 
 .menuIcon {

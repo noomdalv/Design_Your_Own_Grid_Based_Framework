@@ -49,13 +49,20 @@ table {
 
 html {
   box-sizing: border-box;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 1fr;
 }
 
 $black_border: solid black 1px;
 
 body {
-  border: solid black 1px;
+  border: solid red 1px;
 	font-family: 'Lexend Deca', sans-serif;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 1fr;
+	width: 100%;
 }
 
 a {
@@ -64,45 +71,56 @@ a {
 }
 
 header {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr;
   height: 100px;
 
   nav {
 		height: 100%;
+		width: 100%;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
-    border: $black_border;
   }
 }
 
-.header_logo {
-	display: flex;
-	align-items: center;
-	margin-left: 120px;
+.header_grid {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
 
-	.logo_img {
-		height: 95px;
-    transition: all .05s ease-in-out;
+	.header_logo {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.logo_img {
+			height: 95px;
+	    transition: all .05s ease-in-out;
+		}
 	}
 }
 
 .header_list  {
 	display: flex;
 	align-items: center;
-	justify-content: center;
-
-	#menu {
-		display: flex;
-	}
+	justify-content: flex-end;
 
 	ul {
-	  display: flex;
-	  list-style: none;
+		width: 100%;
+		list-style: none;
 	}
 
 	li {
-	  margin: 10px;
+		 margin: 10px;
 	}
+}
+
+#menu {
+	display: flex;
+	border: solid black 1px;
+	justify-content: flex-end;
 }
 
 .menuIcon {

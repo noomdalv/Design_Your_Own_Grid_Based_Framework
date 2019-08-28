@@ -1,5 +1,13 @@
 /* HEADER */
 
+.header_logo {
+  padding-left: 120px;
+}
+
+.header_list {
+  padding-right: 120px;
+}
+
 .header_list a {
   color: rgba(74,74,74,0.7);
   text-decoration: none;
