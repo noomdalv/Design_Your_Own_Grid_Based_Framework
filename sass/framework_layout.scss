@@ -71,7 +71,7 @@ header {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
-    border: solid black 1px;
+    border: $black_border;
   }
 }
 
@@ -86,30 +86,22 @@ header {
 	}
 }
 
-#menu {
-display: flex;
-}
-
 .header_list  {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
-  ul {
-    display: flex;
-    list-style: none;
-  }
-
-	li {
-		margin: 10px;
+	#menu {
+		display: flex;
 	}
 
-	a {
-		color: rgba(74,74,74,0.7);
-    text-decoration: none;
-    letter-spacing: 0.2px;
-    font-size: 1em;
-    font-weight: bold;
+	ul {
+	  display: flex;
+	  list-style: none;
+	}
+
+	li {
+	  margin: 10px;
 	}
 }
 
@@ -259,8 +251,6 @@ main {
 		}
 
 		.sectionFourBottom {
-
-
 			a, p {
 				display: flex;
 				align-self: center;

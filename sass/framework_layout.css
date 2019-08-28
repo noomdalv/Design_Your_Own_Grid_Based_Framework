@@ -74,7 +74,7 @@ header nav {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
-  border: solid black 1px;
+  border: s solid black 1px;
 }
 
 .header_logo {
@@ -87,14 +87,13 @@ header nav {
   transition: all 0.05s ease-in-out;
 }
 
-#menu {
-  display: flex;
-}
-
 .header_list {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.header_list #menu {
+  display: flex;
 }
 .header_list ul {
   display: flex;
@@ -259,4 +258,4 @@ footer #footerLeft, footer #footerRight, footer #footerCenter {
   border: solid black 1px;
 }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=framework_layout.css.map */
