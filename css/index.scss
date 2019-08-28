@@ -86,6 +86,10 @@ header {
 	}
 }
 
+#menu {
+display: flex;
+}
+
 .header_list  {
 	display: flex;
 	align-items: center;
@@ -107,24 +111,10 @@ header {
     font-size: 1em;
     font-weight: bold;
 	}
-
-	.menuIcon {
-		display: none;
-	}
-
 }
 
-$layout-breakpoint-small: 720px;
-
-@media (max-width: $layout-breakpoint-small) {
-	#menu {
-		display: none;
-	}
-
-	.menuIcon {
-		display: flex;
-		justify-content: flex-end;
-	}
+.menuIcon {
+	display: none;
 }
 
 main {

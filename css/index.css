@@ -87,6 +87,10 @@ header nav {
   transition: all 0.05s ease-in-out;
 }
 
+#menu {
+  display: flex;
+}
+
 .header_list {
   display: flex;
   align-items: center;
@@ -106,24 +110,11 @@ header nav {
   font-size: 1em;
   font-weight: bold;
 }
-.header_list .menuIcon {
+
+.menuIcon {
   display: none;
 }
 
-@media (max-width: 720px) {
-  .header_list {
-    display: none;
-  }
-
-  .menuIcon {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  body {
-    background-color: yellow;
-  }
-}
 main {
   border: solid black 1px;
   margin-top: 10px;
