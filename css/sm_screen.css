@@ -12,7 +12,12 @@
 
 .menuIcon {
 	display: flex;
-  border: solid black 1px;
+	font-size: 28px;
+	color: #6abfc3;
+}
+
+.menuIcon i {
+	color: #6abfc3;
 }
 
 #sectionOne {

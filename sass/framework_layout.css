@@ -60,7 +60,6 @@ html {
 }
 
 body {
-  border: solid red 1px;
   font-family: "Lexend Deca", sans-serif;
   display: grid;
   grid-template-rows: auto;
@@ -95,7 +94,6 @@ header nav {
 .header_grid .header_logo {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .header_grid .header_logo .logo_img {
   height: 95px;
@@ -117,7 +115,6 @@ header nav {
 
 #menu {
   display: flex;
-  border: solid black 1px;
   justify-content: flex-end;
 }
 
