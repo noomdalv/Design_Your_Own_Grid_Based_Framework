@@ -130,13 +130,13 @@ main {
   margin-bottom: 10px;
 
   section {
-    margin: 20px 0px;
+    margin: 10px 0px;
   }
 
   #sectionOne {
 		border: $black_border;
 		display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
 
 
@@ -157,7 +157,6 @@ main {
   .sectionTwoUp {
     display: grid;
     grid-column: 1 / 4;
-    border: $black_border;
   }
 
 	.sectionTwoUp h2 {
@@ -167,7 +166,6 @@ main {
   }
 
   .sectionTwoArticle {
-    border: $black_border;
 		display: flex;
 		align-items: center;
 		justify-content: center;

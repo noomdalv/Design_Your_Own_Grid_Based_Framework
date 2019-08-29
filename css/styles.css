@@ -64,9 +64,12 @@ main p {
   padding: 1rem 3.5rem;
 }
 
-#sectionTwo {
-
+.bottomSectionOne {
+  height: max-content;
+  margin: 0;
 }
+
+/* Section two */
 
 .topSectionTwo {
   display: flex;
@@ -87,7 +90,6 @@ main p {
 }
 
 .topSectionTwo p {
-  border: solid black 1px;
   width: 50%;
 }
 
@@ -97,7 +99,7 @@ main p {
   margin-bottom: 36px;
   line-height: 1.2;
   text-align: center;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
 .sectionTwoImg {
@@ -120,9 +122,9 @@ main p {
   flex-direction: column;
   justify-content: center;
   height: max-content;
+  margin-left: 10px;
 }
 
 .bottomSectionTwo p {
   margin-top: 20px;
-  border: solid black 1px;
 }

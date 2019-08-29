@@ -128,12 +128,12 @@ main {
   margin-bottom: 10px;
 }
 main section {
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 main #sectionOne {
   border: solid black 1px;
   display: grid;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr;
 }
 main #sectionOne h1 {
@@ -150,7 +150,6 @@ main #sectionTwo {
 main .sectionTwoUp {
   display: grid;
   grid-column: 1/4;
-  border: solid black 1px;
 }
 main .sectionTwoUp h2 {
   display: flex;
@@ -158,7 +157,6 @@ main .sectionTwoUp h2 {
   justify-content: center;
 }
 main .sectionTwoArticle {
-  border: solid black 1px;
   display: flex;
   align-items: center;
   justify-content: center;
