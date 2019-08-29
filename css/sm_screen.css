@@ -1,0 +1,25 @@
+#menu {
+	display: none;
+}
+
+.header_logo {
+  padding-left: 30px;
+}
+
+.header_list {
+	padding-right: 30px
+}
+
+.menuIcon {
+	display: flex;
+	font-size: 28px;
+	color: #6abfc3;
+}
+
+.menuIcon i {
+	color: #6abfc3;
+}
+
+#sectionOne {
+	background: gray;
+}
