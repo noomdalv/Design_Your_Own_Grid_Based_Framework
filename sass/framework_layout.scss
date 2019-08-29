@@ -135,7 +135,10 @@ main {
 
   #sectionOne {
 		border: $black_border;
-		height: 100px;
+		display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+
 
 		h1 {
 			display: flex;

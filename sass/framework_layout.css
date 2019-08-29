@@ -132,7 +132,9 @@ main section {
 }
 main #sectionOne {
   border: solid black 1px;
-  height: 100px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 main #sectionOne h1 {
   display: flex;
