@@ -33,7 +33,6 @@
 
 .sectionTwoImg img {
 	height: 131px;
-	padding: 0;
 }
 
 .topSectionTwo {
@@ -41,7 +40,11 @@
 	margin: 0;
 }
 
-#sectionTwo h3 h4 p {
-	margin: 10px 0;
-	margin-bottom: 0;
+#sectionTwo h4 {
+	margin: 0;
+}
+
+.sectionThreeBox img {
+  height: 80px;
+  width: 80px;
 }

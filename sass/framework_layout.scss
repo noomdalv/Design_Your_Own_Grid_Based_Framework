@@ -199,6 +199,19 @@ main {
       justify-content: center;
     }
 
+		#sectionThreeBoxes .articleWrapper {
+      display: grid;
+			grid-template-rows: 1fr 1fr 1fr;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-column-gap: 20px;
+			grid-row-gap: 20px;
+			border: solid green 1px;
+    }
+
+		#sectionThreeLastBox {
+			grid-column: 2 / 3;
+		}
+
     .sectionThreeBottom {
       display: flex;
       justify-content: center;

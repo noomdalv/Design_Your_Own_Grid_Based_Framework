@@ -185,6 +185,17 @@ main #sectionThree #sectionThreeBoxes {
   display: flex;
   justify-content: center;
 }
+main #sectionThree #sectionThreeBoxes .articleWrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  border: solid green 1px;
+}
+main #sectionThree #sectionThreeLastBox {
+  grid-column: 2/3;
+}
 main #sectionThree .sectionThreeBottom {
   display: flex;
   justify-content: center;
