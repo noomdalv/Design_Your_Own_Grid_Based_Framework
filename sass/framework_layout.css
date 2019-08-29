@@ -133,7 +133,7 @@ main section {
 main #sectionOne {
   border: solid black 1px;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
   grid-template-columns: 1fr;
 }
 main #sectionOne h1 {
@@ -144,7 +144,7 @@ main #sectionOne h1 {
 main #sectionTwo {
   border: solid black 1px;
   display: grid;
-  grid-template-rows: 150px 150px;
+  grid-template-rows: 1fr 2fr;
   grid-template-columns: 1fr;
 }
 main .sectionTwoUp {

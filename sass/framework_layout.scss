@@ -136,7 +136,7 @@ main {
   #sectionOne {
 		border: $black_border;
 		display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
     grid-template-columns: 1fr;
 
 
@@ -150,7 +150,7 @@ main {
   #sectionTwo {
     border: $black_border;
     display: grid;
-    grid-template-rows: 150px 150px;
+    grid-template-rows: 1fr 2fr;
     grid-template-columns: 1fr;
   }
 
