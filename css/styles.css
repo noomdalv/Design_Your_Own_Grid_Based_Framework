@@ -1,0 +1,226 @@
+/* HEADER */
+
+.header_logo {
+  padding-left: 120px;
+}
+
+.header_list {
+  padding-right: 120px;
+}
+
+.header_list a {
+  color: rgba(74, 74, 74, 0.7);
+  text-decoration: none;
+  letter-spacing: 0.2px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* MAIN */
+
+main p {
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  line-height: 1.88;
+  text-align: center;
+  margin: 30px 0;
+}
+
+main h3 {
+  margin: 60px 0;
+  font-size: 1.5rem;
+  letter-spacing: 0.3px;
+  margin-bottom: 36px;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+main h4 {
+  font-size: 1.2rem;
+  letter-spacing: 0.3px;
+  margin-bottom: 36px;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Section One */
+
+#sectionOne {
+  font-family: "Open Sans", sans-serif;
+}
+
+.topSectionOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topSectionOne h1 {
+  color: #ce973e;
+  font-size: 2.15rem;
+  letter-spacing: 0.4px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+}
+
+.topSectionOne a, #signUpButton {
+  background-color: #6abfc3;
+  border-radius: 0.2em;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 40px;
+  padding: 1rem 3.5rem;
+}
+
+.bottomSectionOne {
+  height: max-content;
+  margin: 0;
+}
+
+/* Section two */
+
+.topSectionTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topSectionTwo p {
+  width: 50%;
+}
+
+.sectionTwoImg img {
+  height: 250px;
+}
+
+#sectionTwo img {
+  padding: 20px 0;
+}
+
+.bottomSectionTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTwoArticle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: max-content;
+  margin-left: 10px;
+}
+
+.bottomSectionTwo p {
+  margin-top: 20px;
+}
+
+/* Section Three */
+
+#sectionThree {
+  background-color: #f3f3f3;
+}
+
+#articleWrapperSectionThree {
+  width: max-content;
+}
+
+.sectionThreeBox {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 250px;
+  background: white;
+}
+
+.sectionThreeBox img {
+  height: 160px;
+  width: 160px;
+  margin-bottom: 20px;
+}
+
+#getStarted {
+  border-radius: 0.2em;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+  color: #fff;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  padding: 1rem 3.5rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: #cc9543;
+}
+
+.sectionFourBox .boxLeft {
+}
+
+.sectionFourBox .boxLeft img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 45px;
+}
+
+.sectionFourBox .boxRight {
+  margin-left: 10px;
+}
+
+.sectionFourBox .boxRight a {
+  color: #ce973e;
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+}
+
+.sectionFourBox .boxRight p {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.sectionFourBottom {
+  background: #f1f1f1;
+}
+
+#successStories {
+  color: rgba(74,74,74,0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: underline;
+}
+
+#successStories:hover {
+  color: black;
+}
+
+.sectionFourBottom p {
+  color: rgba(74,74,74,0.7);
+  font-size: 2.2em;
+  line-height: 1.5em;
+  margin: 0 auto 1rem;
+}
+
+.signUpDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#signUpButton {
+  display: block;
+}
