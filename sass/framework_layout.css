@@ -274,7 +274,8 @@ footer {
   height: 280px;
   border: solid black 1px;
 }
-footer #footerLeft, footer #footerRight, footer #footerCenter {
+
+#footerLeft, #footerRight, #footerCenter {
   display: flex;
   align-items: center;
   justify-content: center;

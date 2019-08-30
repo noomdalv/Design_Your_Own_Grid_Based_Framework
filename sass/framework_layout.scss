@@ -289,12 +289,12 @@ footer {
 	grid-template-columns: 1fr 1fr 1fr;
 	height: 280px;
   border: $black_border;
+}
 
-	#footerLeft, #footerRight, #footerCenter {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		height: 200px;
-		border: $black_border;
-	}
+#footerLeft, #footerRight, #footerCenter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+	border: $black_border;
 }

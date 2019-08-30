@@ -224,3 +224,33 @@ main h4 {
 #signUpButton {
   display: block;
 }
+
+/* Footer */
+
+#footerLeft img {
+  width: 224px;
+  height: 80px;
+}
+
+#footerCenter ul {
+  display: flex;
+  justify-content: center;
+}
+
+#footerCenter li {
+  margin-left: 60px;
+}
+
+#footerCenter i {
+  font-size: 24px;
+  color: #ce973e;
+}
+
+#footerRight a {
+  color: rgba(74,74,74,0.7);
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0;
+  margin-right: 60px;
+  line-height: 2;
+}
