@@ -75,7 +75,6 @@
 	margin: 0;
 	padding: 0;
 	height: 100px;
-	border: solid blue 1px;
 }
 
 .sectionFourBoxWrapper {
@@ -92,4 +91,23 @@
 
 #footerLeft {
 	display: none;
+}
+
+footer {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+}
+
+#footerCenter li {
+	margin-left: 10px;
+  margin-right: 10px;
+}
+
+#footerRight a {
+  font-size: 14px;
+	width: max-content;
+	border: solid black 1px;
+	margin-left: 10px;
+  margin-right: 10px;
 }
