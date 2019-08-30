@@ -153,6 +153,11 @@ main h4 {
   margin-bottom: 20px;
 }
 
+.sectionThreeBottom {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
 #getStarted {
   border-radius: 0.2em;
   box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
@@ -165,9 +170,6 @@ main h4 {
   text-align: center;
   text-decoration: none;
   background-color: #cc9543;
-}
-
-.sectionFourBox .boxLeft {
 }
 
 .sectionFourBox .boxLeft img {
@@ -223,4 +225,37 @@ main h4 {
 
 #signUpButton {
   display: block;
+}
+
+/* Footer */
+
+#footerLeft img {
+  width: 300px;
+  height: 100px;
+}
+
+#footerCenter ul {
+  display: flex;
+  justify-content: center;
+}
+
+#footerCenter li {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#footerCenter i {
+  font-size: 32px;
+  color: #ce973e;
+}
+
+#footerRight a {
+  color: rgba(74,74,74,0.7);
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0;
+  font-size: 19px;
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 2;
 }
