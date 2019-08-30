@@ -186,7 +186,7 @@ main {
 
 #sectionThree {
 	display: grid;
-	grid-template-rows: 1fr 3fr 1fr;
+	grid-template-rows: 3fr 9fr 1fr;
 
 	.sectionThreeTitle {
 		display: flex;
@@ -204,13 +204,6 @@ main {
 		justify-content: center;
 		align-items: center;
 	}
-
-	.sectionThreeBox {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 240px;
-	}
 }
 
 #articleWrapperSectionThree {
@@ -219,6 +212,13 @@ main {
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
+}
+
+.sectionThreeBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 240px;
 }
 
 #sectionThreeLastBox {
