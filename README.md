@@ -8,7 +8,7 @@ This is the eighth project of the HTML and CSS Curriculum at [Microverse](https:
 
 #### [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-your-own-grid-based-framework)
 
-#### [Live Demo]()
+#### [Live Demo](https://rawcdn.githack.com/noomdalv/Design_Your_Own_Grid_Based_Framework/bcfb376efd7d9808bae26f757cff0e5f438ff4b7/index.html)
 
 #### Authors
 
