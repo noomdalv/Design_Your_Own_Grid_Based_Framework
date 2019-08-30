@@ -77,3 +77,13 @@
 	height: 100px;
 	border: solid blue 1px;
 }
+
+.sectionFourBoxWrapper {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 40px;
+	width: 85%;
+	grid-column: 1 / 3;
+}

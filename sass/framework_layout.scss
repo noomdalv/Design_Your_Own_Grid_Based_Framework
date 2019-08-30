@@ -229,7 +229,7 @@ main {
 #sectionFour {
 	border: $black_border;
 	display: grid;
-	grid-template-rows: 1fr 2fr 2fr;
+	grid-template-rows: 1fr 5fr 2fr;
 	grid-template-columns: 1fr;
 
 	#sectionFourBoxes {
@@ -238,17 +238,7 @@ main {
 		align-items: center;
 	}
 
-	.sectionFourBoxWrapper {
-		display: grid;
-		grid-template-rows: 1fr 1fr;
-		grid-template-columns: 1fr 1fr;
-		grid-column-gap: 20px;
-		width: 90%;
-		grid-column: 1 / 3;
-	}
-
 	.sectionFourBox {
-		border: $black_border;
 		height: 165px;
 		display: flex;
 		justify-content: center;
@@ -270,7 +260,6 @@ main {
 	.sectionFourBottom {
 		display: grid;
 		grid-column: 1 / 3;
-		border: $black_border;
 	}
 
 	.sectionFourBottom {
@@ -280,9 +269,18 @@ main {
 			justify-content: center;
 			flex-wrap: wrap;
 			margin: 20px;
-			border: $black_border;
 		}
 	}
+}
+
+.sectionFourBoxWrapper {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	width: 85%;
+	grid-column: 1 / 3;
 }
 
 footer {
