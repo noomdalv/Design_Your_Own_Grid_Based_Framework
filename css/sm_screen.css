@@ -25,7 +25,7 @@
 	grid-template-rows: 1fr 1fr;
 }
 
-.bottomSectionTwo .articleWrapper {
+.bottomSectionTwo #articleWrapperSectionTwo {
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr;
 	grid-template-columns: 1fr;
@@ -44,7 +44,16 @@
 	margin: 0;
 }
 
-.sectionThreeBox img {
-  height: 80px;
-  width: 80px;
+#articleWrapperSectionThree {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+}
+
+#sectionThreeLastBox {
+	border: solid black 1px;
+	display: grid;
+	grid-column: 1 / 3;
 }

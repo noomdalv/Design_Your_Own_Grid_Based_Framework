@@ -132,165 +132,157 @@ main {
   section {
     margin: 10px 0px;
   }
+}
 
-  #sectionOne {
-		border: $black_border;
-		display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr;
+#sectionOne {
+	border: $black_border;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr;
 
 
-		h1 {
-			display: flex;
-  		align-self: center;
-  		justify-content: center;
-	  }
-  }
-
-  #sectionTwo {
-    border: $black_border;
-    display: grid;
-    grid-template-rows: 1fr 2fr;
-    grid-template-columns: 1fr;
-  }
-
-  .sectionTwoUp {
-    display: grid;
-    grid-column: 1 / 4;
-  }
-
-	.sectionTwoUp h2 {
-    display: flex;
+	h1 {
+		display: flex;
 		align-self: center;
 		justify-content: center;
-  }
+	}
+}
 
-  .sectionTwoArticle {
+#sectionTwo {
+	border: $black_border;
+	display: grid;
+	grid-template-rows: 1fr 2fr;
+	grid-template-columns: 1fr;
+}
+
+.sectionTwoUp {
+	display: grid;
+	grid-column: 1 / 4;
+}
+
+.sectionTwoUp h2 {
+	display: flex;
+	align-self: center;
+	justify-content: center;
+}
+
+.sectionTwoArticle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sectionTwoDown {
+	display: flex;
+	justify-content: center;
+}
+
+#articleWrapperSectionTwo {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 80%;
+}
+
+#sectionThree {
+	display: grid;
+	grid-template-rows: 1fr 3fr 1fr;
+
+	.sectionThreeTitle {
 		display: flex;
-		align-items: center;
 		justify-content: center;
-  }
+		align-items: center;
+	}
 
-  .sectionTwoDown {
-    display: flex;
-    justify-content: center;
-  }
+	#sectionThreeBoxes {
+		display: flex;
+		justify-content: center;
+	}
 
-  .articleWrapper {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 80%;
-  }
+	.sectionThreeBottom {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
-  #sectionThree {
-    display: grid;
-    grid-template-rows: 1fr 3fr 1fr;
-    border: $black_border;
+	.sectionThreeBox {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 240px;
+	}
+}
 
-    .sectionThreeTitle {
-      display: flex;
-      justify-content: center;
-			align-items: center;
-    }
+#articleWrapperSectionThree {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+}
 
-    #sectionThreeBoxes {
-      display: flex;
-      justify-content: center;
-    }
+#sectionThreeLastBox {
+	display: grid;
+	grid-column: 2 / 3;
+}
 
-		#sectionThreeBoxes .articleWrapper {
-      display: grid;
-			grid-template-rows: 1fr 1fr 1fr;
-			grid-template-columns: 1fr 1fr 1fr;
-			grid-column-gap: 20px;
-			grid-row-gap: 20px;
-			border: solid green 1px;
-    }
+#sectionFour {
+	border: $black_border;
+	display: grid;
+	grid-template-rows: 1fr 2fr 2fr;
+	grid-template-columns: 1fr;
 
-		#sectionThreeLastBox {
-			grid-column: 2 / 3;
-		}
+	#sectionFourBoxes {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
-    .sectionThreeBottom {
-      display: flex;
-      justify-content: center;
-			align-items: center;
-    }
+	.sectionFourBoxWrapper {
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 20px;
+		width: 90%;
+		grid-column: 1 / 3;
+	}
 
-		.sectionThreeBox {
-			border: $black_border;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			height: 264px;
-		}
+	.sectionFourBox {
+		border: $black_border;
+		height: 165px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
-		#sectionThreeLastBox {
-			display: grid;
-			grid-column: 2/3;
-		}
-  }
+	.sectionFourTitle {
+		display: grid;
+		grid-column: 1 / 3;
+		border: $black_border;
+	}
 
-  #sectionFour {
-    border: $black_border;
-    display: grid;
-    grid-template-rows: 1fr 2fr 2fr;
-    grid-template-columns: 1fr;
+	.sectionFourTitle h2 {
+		display: flex;
+		align-self: center;
+		justify-content: center;
+	}
 
-		#sectionFourBoxes {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
+	.sectionFourBottom {
+		display: grid;
+		grid-column: 1 / 3;
+		border: $black_border;
+	}
 
-		.sectionFourBoxWrapper {
-			display: grid;
-			grid-template-rows: 1fr 1fr;
-	    grid-template-columns: 1fr 1fr;
-			grid-column-gap: 20px;
-			width: 90%;
-			grid-column: 1 / 3;
-		}
-
-		.sectionFourBox {
-			border: $black_border;
-			height: 165px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-
-		.sectionFourTitle {
-			display: grid;
-			grid-column: 1 / 3;
-			border: $black_border;
-		}
-
-		.sectionFourTitle h2 {
+	.sectionFourBottom {
+		a, p {
 			display: flex;
 			align-self: center;
 			justify-content: center;
-		}
-
-		.sectionFourBottom {
-			display: grid;
-			grid-column: 1 / 3;
+			flex-wrap: wrap;
+			margin: 20px;
 			border: $black_border;
 		}
-
-		.sectionFourBottom {
-			a, p {
-				display: flex;
-				align-self: center;
-				justify-content: center;
-				flex-wrap: wrap;
-				margin: 20px;
-				border: $black_border;
-			}
-		}
-  }
-
+	}
 }
 
 footer {

@@ -130,100 +130,105 @@ main {
 main section {
   margin: 10px 0px;
 }
-main #sectionOne {
+
+#sectionOne {
   border: solid black 1px;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr;
 }
-main #sectionOne h1 {
+#sectionOne h1 {
   display: flex;
   align-self: center;
   justify-content: center;
 }
-main #sectionTwo {
+
+#sectionTwo {
   border: solid black 1px;
   display: grid;
   grid-template-rows: 1fr 2fr;
   grid-template-columns: 1fr;
 }
-main .sectionTwoUp {
+
+.sectionTwoUp {
   display: grid;
   grid-column: 1/4;
 }
-main .sectionTwoUp h2 {
+
+.sectionTwoUp h2 {
   display: flex;
   align-self: center;
   justify-content: center;
 }
-main .sectionTwoArticle {
+
+.sectionTwoArticle {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-main .sectionTwoDown {
+
+.sectionTwoDown {
   display: flex;
   justify-content: center;
 }
-main .articleWrapper {
+
+#articleWrapperSectionTwo {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   width: 80%;
 }
-main #sectionThree {
+
+#sectionThree {
   display: grid;
   grid-template-rows: 1fr 3fr 1fr;
-  border: solid black 1px;
 }
-main #sectionThree .sectionThreeTitle {
+#sectionThree .sectionThreeTitle {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-main #sectionThree #sectionThreeBoxes {
+#sectionThree #sectionThreeBoxes {
   display: flex;
   justify-content: center;
 }
-main #sectionThree #sectionThreeBoxes .articleWrapper {
+#sectionThree .sectionThreeBottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sectionThree .sectionThreeBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+}
+
+#articleWrapperSectionThree {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  border: solid green 1px;
 }
-main #sectionThree #sectionThreeLastBox {
-  grid-column: 2/3;
-}
-main #sectionThree .sectionThreeBottom {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-main #sectionThree .sectionThreeBox {
-  border: solid black 1px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 264px;
-}
-main #sectionThree #sectionThreeLastBox {
+
+#sectionThreeLastBox {
   display: grid;
   grid-column: 2/3;
 }
-main #sectionFour {
+
+#sectionFour {
   border: solid black 1px;
   display: grid;
   grid-template-rows: 1fr 2fr 2fr;
   grid-template-columns: 1fr;
 }
-main #sectionFour #sectionFourBoxes {
+#sectionFour #sectionFourBoxes {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-main #sectionFour .sectionFourBoxWrapper {
+#sectionFour .sectionFourBoxWrapper {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -231,29 +236,29 @@ main #sectionFour .sectionFourBoxWrapper {
   width: 90%;
   grid-column: 1/3;
 }
-main #sectionFour .sectionFourBox {
+#sectionFour .sectionFourBox {
   border: solid black 1px;
   height: 165px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-main #sectionFour .sectionFourTitle {
+#sectionFour .sectionFourTitle {
   display: grid;
   grid-column: 1/3;
   border: solid black 1px;
 }
-main #sectionFour .sectionFourTitle h2 {
+#sectionFour .sectionFourTitle h2 {
   display: flex;
   align-self: center;
   justify-content: center;
 }
-main #sectionFour .sectionFourBottom {
+#sectionFour .sectionFourBottom {
   display: grid;
   grid-column: 1/3;
   border: solid black 1px;
 }
-main #sectionFour .sectionFourBottom a, main #sectionFour .sectionFourBottom p {
+#sectionFour .sectionFourBottom a, #sectionFour .sectionFourBottom p {
   display: flex;
   align-self: center;
   justify-content: center;

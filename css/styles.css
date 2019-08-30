@@ -135,9 +135,8 @@ main h4 {
   background-color: #f3f3f3;
 }
 
-#sectionThree .articleWrapper {
+#articleWrapperSectionThree {
   width: max-content;
-  border: solid blue 1px;
 }
 
 .sectionThreeBox {
@@ -152,4 +151,18 @@ main h4 {
   height: 160px;
   width: 160px;
   margin-bottom: 20px;
+}
+
+#getStarted {
+  border-radius: 0.2em;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+  color: #fff;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  padding: 1rem 3.5rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: #cc9543;
 }
