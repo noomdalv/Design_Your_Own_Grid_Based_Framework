@@ -106,8 +106,7 @@ footer {
 
 #footerRight a {
   font-size: 14px;
-	width: max-content;
-	border: solid black 1px;
+	width: max-content;	
 	margin-left: 10px;
   margin-right: 10px;
 }

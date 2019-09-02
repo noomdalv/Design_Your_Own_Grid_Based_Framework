@@ -135,6 +135,7 @@ main section {
   grid-template-rows: 1fr 2fr;
   grid-template-columns: 1fr;
 }
+
 #sectionOne h1 {
   display: flex;
   align-self: center;
