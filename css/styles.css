@@ -1,5 +1,4 @@
 /* Header */
-
 .header_logo {
   padding-left: 120px;
 }
@@ -17,7 +16,6 @@
 }
 
 /* Main */
-
 main p {
   color: rgba(74, 74, 74, 0.7);
   font-size: 1.125rem;
@@ -48,7 +46,6 @@ main h4 {
 }
 
 /* Section One */
-
 .mainSectionOne {
   font-family: "Open Sans", sans-serif;
 }
@@ -90,7 +87,6 @@ main h4 {
 }
 
 /* Section two */
-
 .topSectionTwo {
   display: flex;
   flex-direction: column;
@@ -130,12 +126,11 @@ main h4 {
 }
 
 /* Section Three */
-
 .mainSectionThree {
   background-color: #f3f3f3;
 }
 
-.mainSectionThree .articleWrapper  {
+.mainSectionThree .articleWrapper {
   width: max-content;
 }
 
@@ -160,7 +155,7 @@ main h4 {
 
 .getStartedButton {
   border-radius: 0.2em;
-  box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
   color: #fff;
   display: inline-block;
   font-size: 1em;
@@ -173,7 +168,6 @@ main h4 {
 }
 
 /* Section Four */
-
 .sectionFourBox .boxLeft img {
   width: 50px;
   height: 50px;
@@ -201,7 +195,7 @@ main h4 {
 }
 
 .successStories {
-  color: rgba(74,74,74,0.7);
+  color: rgba(74, 74, 74, 0.7);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -213,7 +207,7 @@ main h4 {
 }
 
 .sectionFourBottom p {
-  color: rgba(74,74,74,0.7);
+  color: rgba(74, 74, 74, 0.7);
   font-size: 2.2em;
   line-height: 1.5em;
   margin: 0 auto 1rem;
@@ -225,34 +219,33 @@ main h4 {
   width: 100%;
 }
 
-#signUpButton {
+.signUpButton {
   display: block;
 }
 
 /* Footer */
-
-#footerLeft img {
+.footerLeft img {
   width: 300px;
   height: 100px;
 }
 
-#footerCenter ul {
+.footerCenter ul {
   display: flex;
   justify-content: center;
 }
 
-#footerCenter li {
+.footerCenter li {
   margin-left: 30px;
   margin-right: 30px;
 }
 
-#footerCenter i {
+.footerCenter i {
   font-size: 32px;
   color: #ce973e;
 }
 
-#footerRight a {
-  color: rgba(74,74,74,0.7);
+.footerRight a {
+  color: rgba(74, 74, 74, 0.7);
   font-weight: bold;
   text-decoration: none;
   margin: 0;
