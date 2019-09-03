@@ -25,12 +25,6 @@
 	grid-template-rows: 1fr 1fr;
 }
 
-.bottomSectionTwo #articleWrapperSectionTwo {
-	display: grid;
-	grid-template-rows: 1fr 1fr 1fr;
-	grid-template-columns: 1fr;
-}
-
 .sectionTwoImg img {
 	height: 131px;
 }
@@ -106,7 +100,7 @@ footer {
 
 #footerRight a {
   font-size: 14px;
-	width: max-content;	
+	width: max-content;
 	margin-left: 10px;
   margin-right: 10px;
 }
