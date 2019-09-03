@@ -1,4 +1,4 @@
-/* HEADER */
+/* Header */
 
 .header_logo {
   padding-left: 120px;
@@ -16,7 +16,7 @@
   font-weight: bold;
 }
 
-/* MAIN */
+/* Main */
 
 main p {
   color: rgba(74, 74, 74, 0.7);
@@ -49,7 +49,7 @@ main h4 {
 
 /* Section One */
 
-#sectionOne {
+.mainSectionOne {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -69,7 +69,7 @@ main h4 {
   margin: 0;
 }
 
-.topSectionOne a, #signUpButton {
+.topSectionOne a, .signUpButton {
   background-color: #6abfc3;
   border-radius: 0.2em;
   box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
@@ -106,7 +106,7 @@ main h4 {
   height: 250px;
 }
 
-#sectionTwo img {
+.mainSectionTwo img {
   padding: 20px 0;
 }
 
@@ -131,11 +131,11 @@ main h4 {
 
 /* Section Three */
 
-#sectionThree {
+.mainSectionThree {
   background-color: #f3f3f3;
 }
 
-#articleWrapperSectionThree {
+.mainSectionThree .articleWrapper  {
   width: max-content;
 }
 
@@ -171,6 +171,8 @@ main h4 {
   text-decoration: none;
   background-color: #cc9543;
 }
+
+/* Section Four */
 
 .sectionFourBox .boxLeft img {
   width: 50px;
