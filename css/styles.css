@@ -1,11 +1,4 @@
 /* Header */
-.header_logo {
-  padding-left: 120px;
-}
-
-.header_list {
-  padding-right: 120px;
-}
 
 .header_list a {
   color: rgba(74, 74, 74, 0.7);
@@ -66,7 +59,8 @@ main h4 {
   margin: 0;
 }
 
-.topSectionOne a, .signUpButton {
+.topSectionOne a,
+.signUpButton {
   background-color: #6abfc3;
   border-radius: 0.2em;
   box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
