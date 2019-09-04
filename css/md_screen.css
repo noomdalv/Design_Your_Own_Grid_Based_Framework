@@ -1,20 +1,19 @@
 @media screen and (min-width: 720px) {
+	  .header_logo {
+	    padding-left: 120px;
+	  }
 
-	.header_logo {
-	  padding-left: 120px;
-	}
+	  .header_list {
+	  	padding-right: 120px;
+	  }
 
-	.header_list {
-	  padding-right: 120px;
-	}
-	
-  .mainSectionFour .articleWrapper {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    width: 85%;
-    grid-column: 1 / 3;
-  }
+	  .mainSectionFour .articleWrapper {
+	    display: grid;
+	    grid-template-rows: 1fr 1fr 1fr 1fr;
+	    grid-template-columns: 1fr;
+	    grid-column-gap: 20px;
+	    grid-row-gap: 20px;
+	    width: 85%;
+	    grid-column: 1 / 3;
+	  }
 }
