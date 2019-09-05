@@ -1,13 +1,13 @@
-@media screen and (min-width: 720px) {
-  .header_logo {
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  .medium_header_logo {
     padding-left: 120px;
   }
 
-  .header_list {
+  .medium_header_list {
     padding-right: 120px;
   }
 
-  .mainSectionFour .articleWrapper {
+  .mainSectionFour .medium_articleWrapper {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr;

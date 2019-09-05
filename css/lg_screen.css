@@ -1,9 +1,9 @@
 @media screen and (min-width: 1024px) {
-  .header_logo {
+  .large_header_logo {
     padding-left: 120px;
   }
 
-  .header_list {
+  .large_header_list {
     padding-right: 120px;
   }
 }
