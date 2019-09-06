@@ -13,16 +13,17 @@
 }
 
 /* Main */
-main p {
+.main_p {
   color: rgba(74, 74, 74, 0.7);
   font-size: 1.125rem;
   letter-spacing: 0.2px;
   line-height: 1.88;
   text-align: center;
   margin: 30px 0;
+  font-family: "Open Sans", sans-serif;
 }
 
-main h3 {
+.main_h3 {
   margin: 60px 0;
   font-size: 1.5rem;
   letter-spacing: 0.3px;
@@ -31,20 +32,23 @@ main h3 {
   text-align: center;
   font-weight: bold;
   color: #4a4a4a;
+  font-family: "Open Sans", sans-serif;
 }
 
-main h4 {
+.main_h4 {
   font-size: 1.2rem;
   letter-spacing: 0.3px;
   margin-bottom: 36px;
   line-height: 1.2;
   text-align: center;
   font-weight: bold;
+  color: #4a4a4a;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Section One */
 
-.topSectionOne h1 {
+.sectionOne_heading {
   color: #ce973e;
   font-size: 2.15rem;
   letter-spacing: 0.4px;
@@ -53,8 +57,7 @@ main h4 {
   margin: 0;
 }
 
-.topSectionOne a,
-.signUpButton {
+.lightblue_btn {
   background-color: #6abfc3;
   border-radius: 0.2em;
   box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
@@ -79,22 +82,11 @@ main h4 {
   height: 250px;
 }
 
-.mainSectionTwo img {
-  padding: 20px 0;
-}
-
 .bottomSectionTwo p {
   margin-top: 20px;
 }
 
 /* Section Three */
-.mainSectionThree {
-  background-color: #f3f3f3;
-}
-
-.mainSectionThree .articleWrapper {
-  width: max-content;
-}
 
 .sectionThreeBox {
   display: flex;
@@ -110,12 +102,7 @@ main h4 {
   margin-bottom: 20px;
 }
 
-.sectionThreeBottom {
-  margin-top: 30px;
-  margin-bottom: 60px;
-}
-
-.getStartedButton {
+.orange_btn {
   border-radius: 0.2em;
   box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -152,11 +139,7 @@ main h4 {
   margin: 10px 0;
 }
 
-.sectionFourBottom {
-  background: #f1f1f1;
-}
-
-.successStories {
+.style_link {
   color: rgba(74, 74, 74, 0.7);
   font-size: 1rem;
   font-weight: 400;
@@ -164,7 +147,7 @@ main h4 {
   text-decoration: underline;
 }
 
-.successStories:hover {
+.style_link:hover {
   color: black;
 }
 
@@ -206,7 +189,7 @@ main h4 {
   color: #ce973e;
 }
 
-.footerRight a {
+.footer_link_list {
   color: rgba(74, 74, 74, 0.7);
   font-weight: bold;
   text-decoration: none;
