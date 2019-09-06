@@ -211,6 +211,18 @@ $black_border: solid black 1px;
 	display: flex;
 }
 
+.flex-d-column {
+	flex-direction: column;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
 .text-style-lexend {
 	font-family: 'Lexend Deca', sans-serif;
 }
@@ -237,6 +249,10 @@ $black_border: solid black 1px;
 
 .h-250 {
 	height: 250px;
+}
+
+.h-max {
+	height: max-content;
 }
 
 .w-50 {
@@ -304,7 +320,7 @@ $black_border: solid black 1px;
 }
 
 .margin-left-10 {
-	margin-right: 10px;
+	margin-left: 10px;
 }
 
 .marging-top-20 {

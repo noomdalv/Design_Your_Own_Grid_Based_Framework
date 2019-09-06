@@ -43,16 +43,6 @@ main h4 {
 }
 
 /* Section One */
-.mainSectionOne {
-  font-family: "Open Sans", sans-serif;
-}
-
-.topSectionOne {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 .topSectionOne h1 {
   color: #ce973e;
@@ -79,18 +69,7 @@ main h4 {
   padding: 1rem 3.5rem;
 }
 
-.bottomSectionOne {
-  height: max-content;
-  margin: 0;
-}
-
 /* Section two */
-.topSectionTwo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 .topSectionTwo p {
   width: 50%;
@@ -102,21 +81,6 @@ main h4 {
 
 .mainSectionTwo img {
   padding: 20px 0;
-}
-
-.bottomSectionTwo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.sectionTwoArticle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: max-content;
-  margin-left: 10px;
 }
 
 .bottomSectionTwo p {
