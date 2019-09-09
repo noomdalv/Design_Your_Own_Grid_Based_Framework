@@ -120,10 +120,10 @@ q {
   quotes: none;
 }
 
-blockquote:after,
-blockquote:before,
-q:after,
-q:before {
+blockquote::after,
+blockquote::before,
+q::after,
+q::before {
   content: "";
   content: none;
 }
@@ -440,10 +440,12 @@ header nav {
   align-items: center;
   justify-content: flex-end;
 }
+
 .header_list ul {
   width: 100%;
   list-style: none;
 }
+
 .header_list li {
   margin: 10px;
 }
@@ -461,6 +463,7 @@ main {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 main section {
   margin: 10px 0;
 }
@@ -471,6 +474,7 @@ main section {
   grid-template-rows: 1fr 2fr;
   grid-template-columns: 1fr;
 }
+
 .mainSectionOne h1 {
   display: flex;
   align-self: center;
@@ -518,15 +522,18 @@ main section {
   display: grid;
   grid-template-rows: 3fr 7fr 1fr;
 }
+
 .mainSectionThree .topSectionThree {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .mainSectionThree .centerSectionThree {
   display: flex;
   justify-content: center;
 }
+
 .mainSectionThree .sectionThreeBottom {
   display: flex;
   justify-content: center;
@@ -559,30 +566,36 @@ main section {
   grid-template-rows: 1fr 5fr 2fr;
   grid-template-columns: 1fr;
 }
+
 .mainSectionFour .centerSectionFour {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .mainSectionFour .sectionFourBox {
   height: 165px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .mainSectionFour .topSectionFour {
   display: grid;
   grid-column: 1/3;
 }
+
 .mainSectionFour .topSectionFour h2 {
   display: flex;
   align-self: center;
   justify-content: center;
 }
+
 .mainSectionFour .sectionFourBottom {
   display: grid;
   grid-column: 1/3;
 }
+
 .mainSectionFour .sectionFourBottom a,
 .mainSectionFour .sectionFourBottom p {
   display: flex;
@@ -617,5 +630,3 @@ footer {
   justify-content: center;
   height: 200px;
 }
-
-/*# sourceMappingURL=gramework_layout.css.map */

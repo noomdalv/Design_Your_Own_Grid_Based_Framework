@@ -23,6 +23,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
   }
+
   /* Section Two */
 
   .bottomSectionTwo .small_sectionTwoArticleWrapper {
@@ -66,6 +67,7 @@
     margin: 0;
     padding: 0;
   }
+
   /* Section Four */
 
   .mainSectionFour .small_sectionFourArticleWrapper {
@@ -74,6 +76,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
+
   /* Footer */
 
   footer {
