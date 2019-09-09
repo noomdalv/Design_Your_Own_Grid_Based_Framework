@@ -1,0 +1,12 @@
+linters:
+    stylelint:
+        config: 'stylelint.config.js'
+        fixer: true
+    csslint:
+        ignore: 'box-model,box-sizing,important,ids,known-properties,order-alphabetical,empty-rules'
+files:
+    ignore:
+        - "src/generated/*"
+        - "webroot/bower_components/*"
+fixers:
+   enable: true

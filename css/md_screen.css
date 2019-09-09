@@ -1,0 +1,16 @@
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  .medium_header_logo {
+    padding-left: 120px;
+  }
+
+  .medium_header_list {
+    padding-right: 120px;
+  }
+
+  .mainSectionFour .medium_articleWrapper {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+}
