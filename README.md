@@ -1,4 +1,4 @@
-# Project: Design your own grid based framework
+## Project: Design your own grid based framework
 
 <b>Microverse</b>
 
@@ -28,11 +28,13 @@ git clone https://github.com/noomdalv/Design_Your_Own_Grid_Based_Framework.git
 
 ### 👤 Authors
 
-- Github: [@SofiBretz](https://github.com/SofiBretz)
+- Github: [@SofiBretz](https://github.com/SofiBretz)<br />
+  Email: sofiabarrantes.gamboa@gmail.com
 
-- Github: [@noomdalv](https://github.com/noomdalv/)
+- Github: [@noomdalv](https://github.com/noomdalv/)<br />
+  Email: vladlunasan@gmail.com
 
-#### License
+### License
 
 This project is 📝 [MIT](https://opensource.org/licenses/MIT) licensed.
 
